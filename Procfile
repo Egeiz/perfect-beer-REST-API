@@ -1,2 +1,2 @@
 
-web: .build/release/BeerAPI --port $PORT
+web: .build/BeerAPI --port $PORT
