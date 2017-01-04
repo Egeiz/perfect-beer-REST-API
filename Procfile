@@ -1,2 +1,2 @@
 
-web: .build/release/BeerAPI --port 8181
+web: .build/BeerAPI --port $PORT

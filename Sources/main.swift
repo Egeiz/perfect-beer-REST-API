@@ -20,7 +20,6 @@
 import PerfectLib
 import PerfectHTTP
 import PerfectHTTPServer
-import SQLite3
 
 // Create HTTP server.
 let server = HTTPServer()
