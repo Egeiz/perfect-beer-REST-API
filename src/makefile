@@ -4,7 +4,7 @@ TARGET = Sources
 OS = $(shell uname)
 
 SWIFT_FILES = $(TARGET)/main.swift \
-                $(TARGET)/arguments.swift
+				$(TARGET)/arguments.swift
 
 MUSTACHE_ROOT = $(TARGET)/Mustache
 PERFECT_ROOT = /app/.delta/usr/src/perfect/PerfectLib
@@ -33,8 +33,8 @@ PostgreSQL_FLAGS = $(SHLIB_PATH) -luuid -lswiftCore -lswiftGlibc /app/.delta/usr
 all: Postgre
 
 install:
-        mv $(TARGET).so ../PerfectLibraries
-        mv $(MUSTACHE_ROOT)/* ../webroot
+		mv $(TARGET).so ../PerfectLibraries
+		mv $(MUSTACHE_ROOT)/* ../webroot
 
 modulecache:
         @mkdir -p $(MODULE_CACHE_PATH)
